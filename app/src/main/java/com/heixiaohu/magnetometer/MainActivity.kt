@@ -429,6 +429,10 @@ class MainActivity : AppCompatActivity(), SensorEventListener, OnChartValueSelec
         cycleCountLayout.addView(cycleCountLabel)
         cycleCountLayout.addView(cycleCountInput)
         
+        // 添加布局到主布局
+        layout.addView(radioGroup)
+        layout.addView(cycleCountLayout)
+        
         // 根据选择的模式启用/禁用周期输入
         cycleCountInput.isEnabled = isAutoStopMode
         
