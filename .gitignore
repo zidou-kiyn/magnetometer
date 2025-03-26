@@ -1,0 +1,74 @@
+# 编译输出
+*.iml
+.gradle
+/build
+/captures
+/app/build/
+.externalNativeBuild
+.cxx
+
+# 本地配置
+/local.properties
+.DS_Store
+
+# IDE 相关
+/.idea/*
+!/.idea/codeStyles/
+!/.idea/inspectionProfiles/
+!/.idea/encodings.xml
+!/.idea/copyright/
+
+# 日志文件
+*.log
+
+# 敏感信息
+google-services.json
+*.keystore
+*.jks
+/app/release
+/app/debug
+keystore.properties
+signing.properties
+
+# 其他
+.navigation/
+/out/
+.sonar/
+*.hprof
+
+# Kotlin
+.kotlin/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!gradle.properties
+
+# 系统文件
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# 测试覆盖率报告
+/coverage/
+*.coverage
+.coverage
+coverage.xml
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
